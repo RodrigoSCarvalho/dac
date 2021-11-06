@@ -184,9 +184,9 @@ public class HelloServlet extends HttpServlet {
             case "fr":
                 if ("sr".equals(tratamento)) {
                     if (time >= 05 && time < 12) {
-                        msg = "Bonjour, Monsieur. ";
+                        msg = "Bonjour, Monsieur ";
                     } else if (time >= 12 && time < 18) {
-                        msg = "Bon après-midi, Monsieur. ";
+                        msg = "Bon après-midi, Monsieur ";
                     } else {
                         msg = "Bonne nuit, Monsieur. ";
                     }
@@ -211,19 +211,19 @@ public class HelloServlet extends HttpServlet {
             case "de":
                 if ("sr".equals(tratamento)) {
                     if (time >= 05 && time < 12) {
-                        msg = "Guten Morgen, Herr. ";
+                        msg = "Guten Morgen, Herr ";
                     } else if (time >= 12 && time < 18) {
-                        msg = "Guten Tag, Herr. ";
+                        msg = "Guten Tag, Herr ";
                     } else {
-                        msg = "Gute Nacht, Herr. ";
+                        msg = "Gute Nacht, Herr ";
                     }
                 } else if ("sra".equals(tratamento)) {
                     if (time >= 05 && time < 12) {
-                        msg = "Guten Morgen, Frau. ";
+                        msg = "Guten Morgen, Frau ";
                     } else if (time >= 12 && time < 18) {
-                        msg = "Guten Tag, Frau. ";
+                        msg = "Guten Tag, Frau ";
                     } else {
-                        msg = "Gute Nacht, Frau. ";
+                        msg = "Gute Nacht, Frau ";
                     }
                 } else {
                     if (time >= 05 && time < 12) {
@@ -239,19 +239,19 @@ public class HelloServlet extends HttpServlet {
             case "ru":
                 if ("sr".equals(tratamento)) {
                     if (time >= 05 && time < 12) {
-                        msg = "Доброе утро, Мистер. ";
+                        msg = "Доброе утро, Мистер ";
                     } else if (time >= 12 && time < 18) {
-                        msg = "Добрый день, Мистер. ";
+                        msg = "Добрый день, Мистер ";
                     } else {
-                        msg = "спокойной ночи, Мистер. ";
+                        msg = "спокойной ночи, Мистер ";
                     }
                 } else if ("sra".equals(tratamento)) {
                     if (time >= 05 && time < 12) {
-                        msg = "Доброе утро, Г-жа. ";
+                        msg = "Доброе утро, Г-жа ";
                     } else if (time >= 12 && time < 18) {
-                        msg = "Добрый день, Г-жа. ";
+                        msg = "Добрый день, Г-жа ";
                     } else {
-                        msg = "спокойной ночи, Г-жа. ";
+                        msg = "спокойной ночи, Г-жа ";
                     }
                 } else {
                     if (time >= 05 && time < 12) {
@@ -311,8 +311,8 @@ public class HelloServlet extends HttpServlet {
             out.println("<title>Servlet HelloServlet</title>");
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet HelloServlet</h1>");
-            out.println("<p>" + msg + "</p>");
+            out.println("<p>Servlet HelloServlet</p>");
+            out.println("<h1>" + msg + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }
