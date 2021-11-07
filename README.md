@@ -12,7 +12,7 @@ Este projeto é acessável pelo link: https://helloworld-cumprimenta.herokuapp.c
 
 3 - Idiomas adicionais:
 
-> Além dos idiomas antes existentes, adicionei o idioma Russo e o idioma Tupi Antigo ou Tupinambá. Como é incerto os cumprimentos em Tupi, deixarei nas referências a fonte de pesquisa e alguns documentos anexados.
+> Além dos idiomas antes existentes, adicionei o idioma Russo e o idioma Tupi Antigo ou Tupinambá. Como é incerto os cumprimentos em Tupi, deixarei nas referências a fonte de pesquisa e alguns documentos anexados. Para realizar as traduções dos idiomas desconhecidos por mim, utilizei o Google Tradutor.
 
 4 - Cumprimentos em função do horário:
 
