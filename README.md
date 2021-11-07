@@ -25,3 +25,19 @@ Este projeto é acessável pelo link: https://helloworld-cumprimenta.herokuapp.c
   por contar com mais idiomas que pronomes de tratamento, coloquei os idiomas em uma caixa de seleção e os pronomes na opção de escolhas. 
 
 ## Referências:
+
+A língua do Brasil. Super Interessante, 2016. Disponível em: <https://super.abril.com.br/cultura/a-lingua-do-brasil/#:~:text=O%20que%20predominava%20era%20o,usado%20como%20sin%C3%B4nimo%20de%20tupi> Acessado em 07 de Nov. de 2021.
+
+PAÍSES que falam russo - Russo Pelo Mundo. Só Russo. Virtuous Tecnologia da Informação, 2013-2021. Consultado em 07/11/2021 às 03:32. Disponível na Internet em http://www.sorusso.com.br/conteudo/mundo.php
+
+CONHEÇA os países que falam alemão como língua oficial. World Study, 2021. Disponível em: <https://www.worldstudy.com.br/noticia/paises-que-falam-alemao>. Acessado em 07 de Nov. de 2021.
+
+41 países que falam francês – Descubra quais são. Intercultural, 2021. Disponível em: <https://www.intercultural.com.br/paises-que-falam-frances/>. Acessado em 07 de Nov. de 2021.
+
+MARTINY, Henrique. Quais os países do mundo que falam inglês. The Fools, 2020. Disponível em: <https://www.thefools.com.br/blog/post/quantos-paises-falam-1-ingles>. Acessado em 07 de Nov. de 2021.
+
+NOVE países que falam português. Cultura, 2021. Disponível em <https://cultura.uol.com.br/entretenimento/noticias/2021/03/28/741_nove-paises-que-falam-portugues.html>. Acessado em 07 de Nov. de 2021.
+
+ARAÚJO, Romildo. Expressões Usuais em Tupi Antigo. Disponível em <https://quizlet.com/br/214215613/expressoes-usuais-em-tupi-antigo-flash-cards/>. Acessado em 06 de Nov. de 2021.
+
+CARVALHO, Moacyr Ribeiro de. Dicionário Tupi (antigo) - Português. 1987. Disponível em: <http://etnolinguistica.wdfiles.com/local--files/biblio%3Acarvalho-1987-dicionario/Carvalho_1987_DicTupiAntigo-Port_OCR.pdf> Acessado em 06 de Nov. de 2021.
