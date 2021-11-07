@@ -28,7 +28,7 @@ Este projeto é acessável pelo link: https://helloworld-cumprimenta.herokuapp.c
 
 ## Referências:
 
-A língua do Brasil. Super Interessante, 2016. Disponível em: [Matéria] (https://super.abril.com.br/cultura/a-lingua-do-brasil/#:~:text=O%20que%20predominava%20era%20o,usado%20como%20sin%C3%B4nimo%20de%20tupi) Acessado em 07 de Nov. de 2021.
+A língua do Brasil. Super Interessante, 2016. Disponível em: [Matéria](https://super.abril.com.br/cultura/a-lingua-do-brasil/#:~:text=O%20que%20predominava%20era%20o,usado%20como%20sin%C3%B4nimo%20de%20tupi) Acessado em 07 de Nov. de 2021.
 
 PAÍSES que falam russo - Russo Pelo Mundo. Só Russo. Virtuous Tecnologia da Informação, 2013-2021. Consultado em 07/11/2021 às 03:32. Disponível na Internet em http://www.sorusso.com.br/conteudo/mundo.php
 
