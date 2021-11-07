@@ -23,3 +23,5 @@ Este projeto é acessável pelo link: https://helloworld-cumprimenta.herokuapp.c
   Como nova funcionalidade adicionei um parágrafo listando os países que tenham o idioma selecionado como língua oficial.
 
   por contar com mais idiomas que pronomes de tratamento, coloquei os idiomas em uma caixa de seleção e os pronomes na opção de escolhas. 
+
+## Referências:
