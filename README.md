@@ -1,6 +1,6 @@
 # HelloWorld no Heroku
 
-Este projeto é acessável pelo link: https://helloworld-cumprimenta.herokuapp.com/alomundo.
+Este projeto é acessável pelo link: https://helloworld-cumprimenta.herokuapp.com.
 
 1 - ServletHello:
 
