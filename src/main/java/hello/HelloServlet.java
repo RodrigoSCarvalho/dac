@@ -95,7 +95,7 @@ public class HelloServlet extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Servlet HelloServlet</h1>");
-            out.println("<p>" + msg + "</p>");
+            out.println("<h2>" + msg + "</h2>");
             out.println("</body>");
             out.println("</html>");
         }
@@ -112,11 +112,11 @@ public class HelloServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        
+
         request.setCharacterEncoding("UTF-8");
-        
-        
+
         String msg = "";
+        String onde = "";
 
         int time = Integer.parseInt(request.getParameter("time"));
         String lang = request.getParameter("lang");
@@ -151,7 +151,9 @@ public class HelloServlet extends HttpServlet {
                     } else {
                         msg = "Boa noite, ";
                     }
+
                 }
+                onde = "Portugal - Moçambique - Angola - Timor Leste - Guiné-Bissau - Guiné Equatorial - Cabo Verde - São Tomé e Príncipe - Macau - Brasil";
                 break;
             case "en":
                 if ("sr".equals(tratamento)) {
@@ -179,14 +181,17 @@ public class HelloServlet extends HttpServlet {
                         msg = "Good evening, ";
                     }
                 }
+                onde = "Austrália - Bahamas - Estados Unidos - Granada - Guiana - Inglaterra - Escócia - Gales - Irlanda - Jamaica - Nova Zelândia - Trinidad <br><br> "
+                        + "Países com o Inglês como língua oficial mas não nativa:  <br><br> "
+                        + "Botsuana - Fiji - Gâmbia - Gana - Libéria - Maurício - Nigéria - Rodésia - Serra Leoa - Uganda - Zâmbia";
                 break;
 
             case "fr":
                 if ("sr".equals(tratamento)) {
                     if (time >= 05 && time < 12) {
-                        msg = "Bonjour, Monsieur. ";
+                        msg = "Bonjour, Monsieur ";
                     } else if (time >= 12 && time < 18) {
-                        msg = "Bon après-midi, Monsieur. ";
+                        msg = "Bon après-midi, Monsieur ";
                     } else {
                         msg = "Bonne nuit, Monsieur. ";
                     }
@@ -206,24 +211,27 @@ public class HelloServlet extends HttpServlet {
                     } else {
                         msg = "Bonne nuit, ";
                     }
+                   
                 }
+                onde = "Benin - Burkina Faso - República do Congo - República Democrática do Congo - Costa do Marfim - França metropolitana e Córsega "
+                        + "- Gabão - Guinée - Mali - Senegal - Togo - Mônaco - Niger";
                 break;
             case "de":
                 if ("sr".equals(tratamento)) {
                     if (time >= 05 && time < 12) {
-                        msg = "Guten Morgen, Herr. ";
+                        msg = "Guten Morgen, Herr ";
                     } else if (time >= 12 && time < 18) {
-                        msg = "Guten Tag, Herr. ";
+                        msg = "Guten Tag, Herr ";
                     } else {
-                        msg = "Gute Nacht, Herr. ";
+                        msg = "Gute Nacht, Herr ";
                     }
                 } else if ("sra".equals(tratamento)) {
                     if (time >= 05 && time < 12) {
-                        msg = "Guten Morgen, Frau. ";
+                        msg = "Guten Morgen, Frau ";
                     } else if (time >= 12 && time < 18) {
-                        msg = "Guten Tag, Frau. ";
+                        msg = "Guten Tag, Frau ";
                     } else {
-                        msg = "Gute Nacht, Frau. ";
+                        msg = "Gute Nacht, Frau ";
                     }
                 } else {
                     if (time >= 05 && time < 12) {
@@ -234,24 +242,25 @@ public class HelloServlet extends HttpServlet {
                         msg = "Gute Nacht, ";
                     }
                 }
+                onde = "Alemanha - Áustria - Bélgica - Luxemburgo - Suíça - Liechtenstein";
                 break;
 
             case "ru":
                 if ("sr".equals(tratamento)) {
                     if (time >= 05 && time < 12) {
-                        msg = "Доброе утро, Мистер. ";
+                        msg = "Доброе утро, Мистер ";
                     } else if (time >= 12 && time < 18) {
-                        msg = "Добрый день, Мистер. ";
+                        msg = "Добрый день, Мистер ";
                     } else {
-                        msg = "спокойной ночи, Мистер. ";
+                        msg = "спокойной ночи, Мистер ";
                     }
                 } else if ("sra".equals(tratamento)) {
                     if (time >= 05 && time < 12) {
-                        msg = "Доброе утро, Г-жа. ";
+                        msg = "Доброе утро, Г-жа ";
                     } else if (time >= 12 && time < 18) {
-                        msg = "Добрый день, Г-жа. ";
+                        msg = "Добрый день, Г-жа ";
                     } else {
-                        msg = "спокойной ночи, Г-жа. ";
+                        msg = "спокойной ночи, Г-жа ";
                     }
                 } else {
                     if (time >= 05 && time < 12) {
@@ -262,7 +271,7 @@ public class HelloServlet extends HttpServlet {
                         msg = "спокойной ночи, ";
                     }
                 }
-
+                onde = "Rússia - Bielorrússia - Ucrânia - Cazaquistão - Quirguistão";
                 break;
 
             case "tp":
@@ -291,6 +300,8 @@ public class HelloServlet extends HttpServlet {
                         msg = "Tîa nde pytuna, ";
                     }
                 }
+                onde = "O Tupi ou Tupinambá era falado pelas 5 principais etnias: <br>"
+                        + "Tupinambás, Tupiniquins, Caetés, Potiguaras e Tamoios.";
                 break;
         }
 
@@ -311,8 +322,10 @@ public class HelloServlet extends HttpServlet {
             out.println("<title>Servlet HelloServlet</title>");
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet HelloServlet</h1>");
-            out.println("<p>" + msg + "</p>");
+            out.println("<p>Servlet HelloServlet</p>");
+            out.println("<h1>" + msg + "</h1>");
+            out.println("<br><h4>É a língua oficial dos seguintes países:</h4>");
+            out.println("<p>" + onde + "</p>");
             out.println("</body>");
             out.println("</html>");
         }
