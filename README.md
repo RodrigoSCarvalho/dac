@@ -22,7 +22,7 @@ Este projeto é acessável pelo link: https://helloworld-cumprimenta.herokuapp.c
 
   Como nova funcionalidade adicionei um parágrafo listando os países que tenham o idioma selecionado como língua oficial.
 
-  por contar com mais idiomas que pronomes de tratamento, coloquei os idiomas em uma caixa de seleção e os pronomes na opção de escolhas. 
+  Por contar com mais idiomas que pronomes de tratamento, coloquei os idiomas em uma caixa de seleção e os pronomes na opção de escolhas. 
 
 
 
@@ -43,3 +43,6 @@ NOVE países que falam português. Cultura, 2021. Disponível em <https://cultur
 ARAÚJO, Romildo. Expressões Usuais em Tupi Antigo. Disponível em <https://quizlet.com/br/214215613/expressoes-usuais-em-tupi-antigo-flash-cards/>. Acessado em 06 de Nov. de 2021.
 
 CARVALHO, Moacyr Ribeiro de. Dicionário Tupi (antigo) - Português. 1987. Disponível em: <http://etnolinguistica.wdfiles.com/local--files/biblio%3Acarvalho-1987-dicionario/Carvalho_1987_DicTupiAntigo-Port_OCR.pdf> Acessado em 06 de Nov. de 2021.
+
+
+AKANGATARA. BOM DIA, BOA TARDE, BOA NOITE em Tupi. YouTube, 2020. Disponível em : <https://www.youtube.com/watch?v=9wv-hAd8AZk>. Acessado em 06 de Nov. de 2021.
