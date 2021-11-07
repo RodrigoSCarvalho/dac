@@ -8,7 +8,7 @@ Este projeto é acessável pelo link: https://helloworld-cumprimenta.herokuapp.c
 
 2 - Índice:
 
-  Na página de índice decidi colocar um card com um gif de uma paródia do Casseta e Planeta, com um texto explicativo e um botão para acessar o helloform.htlm.
+  Na página de índice decidi colocar um card com um gif de uma paródia do Casseta e Planeta, com um texto explicativo e um botão para acessar o helloform.html.
 
 3 - Idiomas adicionais:
 
