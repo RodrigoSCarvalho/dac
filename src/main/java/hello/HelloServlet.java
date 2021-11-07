@@ -324,11 +324,8 @@ public class HelloServlet extends HttpServlet {
             out.println("<body>");
             out.println("<p>Servlet HelloServlet</p>");
             out.println("<h1>" + msg + "</h1>");
-<<<<<<< HEAD
             out.println("<br><h4>É a língua oficial dos seguintes países:</h4>");
             out.println("<p>" + onde + "</p>");
-=======
->>>>>>> 43d41da883d2c05be35abb66003d39cd4cb68baa
             out.println("</body>");
             out.println("</html>");
         }
