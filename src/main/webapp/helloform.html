@@ -22,10 +22,6 @@ and open the template in the editor.
         <div class="container-fluid">
             <form class="form-signin" action="alomundo" method="post">
                 <h3 class="mb-2 fs-5"> Formulário de HelloWorld (usando o HelloServlet.java) </h3>
-                <input type="radio" name="tratamento" value="" class="me-1 mt-3 mb-2" checked> Nenhum
-                <input type="radio" name="tratamento" value="sr" class="ms-3  me-1 mt-3 mb-2"> Sr.
-                <input type="radio" name="tratamento" value="sra" class="ms-3 me-1 mt-3 mb-2"> Sra.
-                <br>
                 <select name="lang" class="form-select mt-2"> 
                     <option  name="lang" value="pt" > Português </option>
                     <option  name="lang" value="en"> Inglês </option>
@@ -34,6 +30,10 @@ and open the template in the editor.
                     <option  name="lang" value="ru" > Russo </option>
                     <option  name="lang" value="tp" > Tupi Antigo </option>
                 </select>
+                <input type="radio" name="tratamento" value="" class="me-1 mt-3 mb-2" checked> Nenhum
+                <input type="radio" name="tratamento" value="sr" class="ms-3  me-1 mt-3 mb-2"> Sr.
+                <input type="radio" name="tratamento" value="sra" class="ms-3 me-1 mt-3 mb-2"> Sra.
+                <br>
                 <input type="text" name="nome" class="form-control mt-2" placeholder="Nome"/>
                 <input type="text" id="time" name="time" hidden>
                 <input type="submit" value="Cumprimentar" class="btn btn-lg btn-dark btn-block mt-3 rounded-pill" id="botao"/>
